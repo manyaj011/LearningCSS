@@ -1,0 +1,107 @@
+/* 
+CSS BOX MODEL
+*/
+/* *
+{
+ margin:0;
+} */
+  /* getting rid of default margins */
+h1{
+ background:rosybrown;
+ /* width:650px;  */
+ text-align:center;
+ /* padding-top: 30px;
+ padding-bottom: 30px;
+ padding-left: 25px; */
+ padding: 20px;
+ /* margin-bottom:0px; */
+ margin-left: 300px;
+ margin-right: 300px;
+ border-style: outset;
+ border-width: 100px;
+ border-color: crimson;
+ border-radius: 5px;
+}
+p{
+ background-color: darksalmon;
+ padding:20px;
+ /* margin-top: 0px; */
+ /* getting rid of default margins */
+ /* padding: 30px 60px; */
+ /* padding: 20px 40px 60px 10px; top right bottom left */
+ border:5px dashed black;
+ border-bottom-color: cornflowerblue;
+ border-bottom-style: solid;
+ border-radius: 20%;
+ margin-top:-100px;
+
+}
+.buttons{
+ margin:3rem;
+}
+/* a{
+ background-color:rgb(93, 153, 93);
+ text-decoration: none;
+ padding:1.2rem 1.5rem;
+ color:black;
+ text-transform: uppercase;
+ cursor: pointer;
+ margin: 0 20px;
+} */
+#one{
+ border:0.2rem solid black;
+}
+#two
+{
+ outline-width: 0.2 rem;
+ outline-style:solid;
+ outline-color:black;
+ outline-offset:10px; 
+}
+/*
+Block: always starts with a new line and takes full width
+Inline: does not start with new linw and takes up as much as content pace
+ */
+.block
+{
+  background:blue;
+  color:white;
+  width:150px;
+  margin:20px auto;
+  /* yhaan p iski wjh se top botton m 20 px ka mrgin aaya h aur right left m auto ki wjh se bloc level elements centre m aaye h  */
+
+  
+  /* display:inline;
+  yhaan p block elements heading ,para,div ko inline element jesa presewnt krne ki koshish kri h  */
+}
+.inline
+{
+  background-color: aquamarine;
+  color:black;
+  /* display:block;
+  inline m bloc display kr rhe h mtlb usko block jesa represent kr rhe h */
+}
+body
+{
+  /* text-align: center; is se inline level ele saare centre m ho jate h lekin block wale nhi hote h usko krne ke liye margin ka use kia h */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li{
+  list-style-type:none ;
+}
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background:#222;
+  color: #f15025;
+  padding:5px;
+  margin:10px 100px;
+  /* yhan p  a inline element hai to uspe padding jb lgai 5px ki ki to vo overlap hogye -->phr jb margin lgaya top bottom m 10 px to koi frk nhi pdaa-->isko shi krne ke liye inline ko block m convert krna pdega */
+  /* better h inline-block m convert krdo kunki phr vo block elemnets ki trh bg color pure screen p spread nhi hoga */
+  display:inline-block;
+  padding:10px 10px;
+  /* is se upr neeche bhi padding aa gyi */
+  margin:10px 200px;
+
+}

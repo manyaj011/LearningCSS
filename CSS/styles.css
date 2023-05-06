@@ -1,0 +1,122 @@
+/* ELEMENT SELECTORS */
+/* using id */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+#title  
+{
+    color:darkred;
+    background:blanchedalmond;
+    width: 200px; 
+    /* ye width se bg m color saari screen p ni aara bs jitni width mention h utna aara h  */
+    height: 40 px;
+}
+h1 {
+ color:darkcyan;
+ font-size: 2rem;
+ 
+}
+h2,h3 {
+ color:red;
+}
+/* css rule */
+/* selectors */
+/* declaration block*/
+/* declaration */
+/* property */
+/* value */
+p {
+ color      :grey;
+ font-family: 'Times New Roman', Times, serif;
+ line-height: 1.5em;
+ border     : 3px solid darkslategray;
+}
+body{
+ color:blue;
+}
+
+/* class selectors */
+
+.green{
+ color:green;
+}
+.red{
+ color:red;
+}
+#title2{
+ background:darkgrey;
+}
+.lowercase{
+ text-transform: lowercase;
+}
+.one{
+ color:yellowgreen;
+ background-color: black;
+}
+.two{
+ color:red;
+ background-color: black;
+}
+div{
+ color:darkgreen;
+ background-color: beige;
+}
+span{
+ color:blueviolet;
+ text-transform: uppercase;
+}
+/* see the difference between the opcaity of gey color by looking at both the headings */
+#first{
+ color:rgb(0,255,255);
+ background:rgba(100,100,100,0.1);
+}
+#second {
+ color: rgb(45, 55, 100);
+ background: rgba(100, 100, 100,0.25);
+}
+body{
+ background:#d8d2e1;
+}
+ .outer{
+  width: 400px;
+  height:200px;
+  background:#230007;
+ }
+ .inner{
+  width:50%;
+  height:50%;
+  background:#8C5F66;
+ }
+ .header{
+  width:100vw;
+  height:100vh;
+ }
+ .banner{
+  width:50vw;
+  height:50vh;
+  background:#8C5F66
+ }
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ .navbar{
+  background:rgba(100, 100, 100,0.25);
+  height: 60px;
+  color:#8C5F66;
+  font-size:3rem;
+ }
+ .ban{
+  background:rgb(45, 55, 100);
+  min-height: calc(100vh - 60px);
+  /* space should be before and after - sign */
+ }
+ h1
+ {
+  font-family: 'Roboto', sans-serif;
+ }
+ p{
+  font-family: 'Roboto', sans-serif;
+ }
+
