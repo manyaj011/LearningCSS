@@ -1,0 +1,59 @@
+body{
+ margin: 0;
+}
+.container{
+ border: 6px solid black;
+ /* display: inline-grid; */
+ display: grid;
+
+ /* grid-template-columns: 200px 200px 200px; */
+ /* grid-template-columns: repeat(6,211.3px); */
+ /* grid-template-columns: 1fr 2fr 1fr; */
+ /* grid-template-columns: repeat(4,minmax(200px ,1fr)); */
+ /* grid-template-rows: repeat(2,100px);//ypr ka sb comment out krne p ye ese ku aara h height km ku hoti jaa ri h  */
+ /* grid-template-rows: repeat(3,100px) 200px; */
+ height: 400px;
+ /* grid-template-rows: repeat(3,1fr); */
+ grid-template: repeat(3, 1fr) / repeat(3, minmax(200px, 1fr));
+}
+.Grid-item{
+ color:white;
+ font-size: 1.5rem;
+ padding: 1rem;
+ text-align: center;
+}
+.item-1 {
+ background-color: #DBF4A7;
+}
+
+.item-2 {
+ background-color: #EAF7CA;
+}
+
+.item-3 {
+ background-color: #F9F9ED;
+}
+
+.item-4 {
+ background-color: #E9EAEF;
+}
+
+.item-5 {
+ background-color: #D9DBF1;
+}
+
+.item-6 {
+ background-color: #B4BCDF;
+}
+
+.item-7 {
+ background-color: #8E9DCC;
+}
+
+.item-8 {
+ background-color: #8691BF;
+}
+
+.item-9 {
+ background-color: #7D84B2;
+}
