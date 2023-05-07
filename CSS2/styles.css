@@ -97,7 +97,7 @@ ul li a{
   color: #f15025;
   padding:5px;
   margin:10px 100px;
-  /* yhan p  a inline element hai to uspe padding jb lgai 5px ki ki to vo overlap hogye -->phr jb margin lgaya top bottom m 10 px to koi frk nhi pdaa-->isko shi krne ke liye inline ko block m convert krna pdega */
+  /* yhan p  a inline element hai to uspe padding jb lgai 5px  ki to vo overlap hogye -->phr jb margin lgaya top bottom m 10 px to koi frk nhi pdaa-->isko shi krne ke liye inline ko block m convert krna pdega */
   /* better h inline-block m convert krdo kunki phr vo block elemnets ki trh bg color pure screen p spread nhi hoga */
   display:inline-block;
   padding:10px 10px;

@@ -1,0 +1,82 @@
+body{
+ margin: 0;
+}
+.container{
+  border: 6px solid black;
+ display: flex; 
+ /* initially this behaves like a block level element occupying 100% of the width..if you dont want it to behave like a block level element then to inline flex */
+ /* display: inline-flex; */
+ /* flex direction row sets main axis from left to right ..row reverse sets main axis directon from right to left same for column*/
+ /* display:flex; */
+ height: 800px;
+ /* flex-direction: column; */
+ /* flex-wrap:wrap-reverse; */
+ /* flex-flow:row-reverse wrap; */
+ /* column-gap: 40px;
+ row-gap: 40px;
+ flex-wrap: wrap;//this is used taki row-gap property dikha ske
+ gap: 20px 20px; */
+ /* flex-wrap: wrap; */
+ /* justify-content: space-evenly; */
+ /* align-items: baseline; */
+ /* align-content: space-evenly; */
+ align-items: center;
+}
+.flex-item{
+ color:white;
+ font-size: 1.5rem;
+ padding:1rem;
+ text-align:center;
+ /* flex-grow: 1; */
+ /* flex-shrink: 0; */
+ /* width: 6rem; */
+ /* align-self: stretch; */
+}
+.item-1 {
+ background-color: #DBF4A7;
+ /* padding-bottom: 30rem; */
+ flex-grow: 1;
+ flex-basis: 200px;
+ 
+ /* flex grow and flex shrink should be applied before flex basis */
+ flex: 2 5 200px;
+ align-self: flex-start;
+}
+.item-2 {
+ background-color: #EAF7CA;
+ /* flex-grow: 1; */
+ /* padding-bottom: 5rem; */
+ align-self: flex-end;
+}
+.item-3 {
+ background-color: #F9F9ED;
+ /* padding-bottom: 3rem; */
+ /* order: 1; */
+ /* flex-shrink: 4; */
+ align-self: center;
+}
+.item-4 {
+ background-color: #E9EAEF;
+ align-self: stretch;
+ 
+}
+.item-5 {
+ background-color: #D9DBF1;
+ /* flex-grow: 1; */
+ align-self: auto;
+}
+.item-6 {
+ background-color: #B4BCDF;
+ /* flex-grow: 3; */
+}
+.item-7 {
+ background-color: #8E9DCC;
+ /* order: 2; */
+}
+.item-8 {
+ background-color: #8691BF;
+}
+.item-9 {
+ background-color: #7D84B2;
+ /* order: 1; */
+}
