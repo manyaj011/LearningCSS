@@ -5,16 +5,32 @@ body{
  border: 6px solid black;
  /* display: inline-grid; */
  display: grid;
-
  /* grid-template-columns: 200px 200px 200px; */
  /* grid-template-columns: repeat(6,211.3px); */
  /* grid-template-columns: 1fr 2fr 1fr; */
  /* grid-template-columns: repeat(4,minmax(200px ,1fr)); */
  /* grid-template-rows: repeat(2,100px);//ypr ka sb comment out krne p ye ese ku aara h height km ku hoti jaa ri h  */
  /* grid-template-rows: repeat(3,100px) 200px; */
- height: 400px;
+ /* height: 400px; */
  /* grid-template-rows: repeat(3,1fr); */
- grid-template: repeat(3, 1fr) / repeat(3, minmax(200px, 1fr));
+ grid-template: repeat(3, 200px) / repeat(3, 200px);
+ /* column-gap: 20px;
+ row-gap: 30px;
+ gap: 40px 10px; */
+ /* justify-items:center;
+ align-items: center; */
+ /* place-items: center center; */
+ /* te above one is same as place-items:center */
+ /* height: 800px; */
+ /* justify-content: space-evenly; */
+ /* to expect the same behaviour along the column */
+ /* align-content: space-evenly; */
+ /* place-content: space-between; */
+ /* grid-auto-flow: auto;
+ grid-auto-columns: 100px;
+ grid-auto-rows: 100px; */
+ /* grid-template-areas: ; */
+ 
 }
 .Grid-item{
  color:white;
@@ -24,10 +40,19 @@ body{
 }
 .item-1 {
  background-color: #DBF4A7;
+ grid-column-start: 1;
+ grid-column-end: span 2;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+ grid-column: 1/span 2;
+ grid-row: 1/span 2;
 }
 
 .item-2 {
  background-color: #EAF7CA;
+ justify-self: center;
+ align-self: center;
+ 
 }
 
 .item-3 {
@@ -40,6 +65,7 @@ body{
 
 .item-5 {
  background-color: #D9DBF1;
+ place-self: center ;
 }
 
 .item-6 {
@@ -48,6 +74,7 @@ body{
 
 .item-7 {
  background-color: #8E9DCC;
+ place-self: start center;
 }
 
 .item-8 {
